@@ -1,0 +1,109 @@
+.main_heading{
+  
+  margin-top: 3px;
+  margin-bottom: 4px;
+}
+
+.main_upper_box{
+  margin-bottom: 9em;
+}
+.story_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.main_id{
+   width: 40%;
+}
+
+.image{
+  border-radius: 10px 0 0 10px;
+  
+  border-radius: 5px 0px 0px 5px;
+}
+
+.main_block_image
+{
+    margin-bottom: 20px;
+}
+
+.main_block_content{
+  background-color: #F7F7F7 ;
+  overflow: hidden;
+  width: 80%;
+  height: 12em;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  overflow-wrap: break-word;
+}
+
+.book
+{
+  cursor: pointer;
+}
+
+.book hr
+{
+  margin-bottom: 10px;
+}
+.main_block_para{
+  font-size:10px;
+}
+.header_entrepreneur
+{
+  line-height: 2;
+}
+
+
+
+.main_button{
+  padding-bottom: 10px;
+  align-items: flex-end;
+  width: 10%;
+  right: 0.1rem;
+  opacity: 100%;
+}
+
+
+.lower_container{
+  width: 20%;
+  height: 30%;
+}
+
+.content_number
+{
+  font-weight: 2px;
+  font-size: 30px;
+
+}
+
+.buttons_lower{
+  border-color: black;
+  border-width: 2px;
+  color: black;
+}
+
+.lower_content_{
+  margin-bottom: 3rem;
+}
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
+}
+.modal-body
+{
+    text-align: center
+}
