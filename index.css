@@ -1,36 +1,38 @@
 .main_heading{
-  
-  margin-top: 3px;
-  margin-bottom: 4px;
+  text-align:center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
 .main_upper_box{
-  margin-bottom: 9em;
-}
-.story_head
-{
-    font-size: 20px;
-    padding: 6px 22px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-.text_1{
-  color:rgb(13, 238, 66);
-}
+  margin-bottom: 9rem;}
+ 
+.main_heading{
+   width: 40%;}
 
-.main_id{
-   width: 40%;
-}
 
-.image_1{
-  border-radius: 10px 0 0 10px;
+
+.image{
   
+    position: absolute;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
+    
+  .image_1{
+
+  border-radius: 10px 0 0 10px;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 5px 0px 0px 5px;
  
 }
+
 
 .main_block_image
 {
     margin-bottom: 20px;
+    border-radius: 10px 0 0 10px;
 }
 
 .main_block_content{
@@ -77,10 +79,7 @@
   height: 30%;
 }
 
-#myCarousel
-{
-    background-color: red;
-}
+
 
 .content_number
 {
@@ -93,6 +92,7 @@
   border-color: black;
   border-width: 2px;
   color: black;
+  margin-top:1.7rem;
 }
 
 .lower_content_{
