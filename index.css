@@ -74,6 +74,11 @@
   height: 30%;
 }
 
+#myCarousel
+{
+    background-color: red;
+}
+
 .content_number
 {
   font-weight: 2px;

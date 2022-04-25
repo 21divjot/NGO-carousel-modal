@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Carousel</title>
+    <title>Carousel - Modal</title>
     <meta name="viewport" content="width = device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -24,15 +24,17 @@
 
 <body>
     <div class="container">
-
-        <div class="text-success text-capitalize" class="main_heading">
-            <h1 class="page-header">Our Success Stories</h1>
+        <center><div class="text-success text-capitalize main_heading">
+            <h1 class="page-header">our success stories</h1>
         </div>
+    </center>
 
         <div class="d-flex justify-content-center flex-wrap main_upper_box">
-            <div id="carouselExampleControls" class="carousel slide main_id" data-bs-ride="carousel">
+
+            <div id="carouselExampleControls" class="carousel slide  main_id" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+
                         <div class="d-flex flex-row main_block">
                             <div class="main_block_image">
                                 <img class="image" class="img-responsive " src="pic.jpeg" alt="image" width="210"
@@ -40,17 +42,24 @@
                             </div>
                             <div class="main_block_content">
 
-                                <h4 class="text-capitalize"><kbd> story one </kbd></h4>
+                                <h4 class="text-capitalize"> story one </h4>
 
                                 <p class="main_block_para">
                                     The months and years of hardwork seem all the more worth it, as we see the tensions
                                     fade away from the faces of the people an..
                                 </p>
-
+                                <br>
+                                <div class="book" data-toggle="modal" data-target="#First">
+                                    <h5 class="text-success text-left text-capitalize">Click Here
+                                       <button> <span class="glyphicon glyphicon-star"></span></button>
+                                    </h5>
+                                    </div>
+                              
                             </div>
                         </div>
-                    </div>
+                   </div>
                     <div class="carousel-item">
+
                         <div class="d-flex flex-row main_block">
                             <div class="main_block_image">
                                 <img class="image" class="img-responsive" src="pic2.jpeg" alt="image" width="210"
@@ -58,7 +67,7 @@
                             </div>
                             <div class="main_block_content">
 
-                                <h4 class="text-capitalize"><kbd> story two </kbd></h4>
+                                <h4 class="text-capitalize"> story two </h4>
 
 
                                 <p class="main_block_para">
@@ -66,8 +75,19 @@
                                     fade away from the faces
                                     of the people an..
                                 </p>
+                                <br>
+                                <div class="book" data-toggle="modal" data-target="#Second">
+                                    <h5 class="text-success text-left text-capitalize">Click Here
+                                       <button> <span class="glyphicon glyphicon-star"></span></button>
+                                    </h5>
+                                    </div>
+                           
+                               
+                                   
+
                             </div>
                         </div>
+
                     </div>
                     <div class="carousel-item">
                         <div class="d-flex flex-row main_block">
@@ -76,167 +96,162 @@
                                     height="210">
                             </div>
                             <div class="main_block_content">
-                                <h4 class="text-capitalize"><kbd> story three </kbd></h4>
+                                <h4 class="text-capitalize"> story three </h4>
                                 <p class="main_block_para">
                                     The months and years of hardwork seem all the more worth it, as we see the tensions
                                     fade away from the faces
                                     of the people an..
                                 </p>
+                                <br>
+                                <div class="book" data-toggle="modal" data-target="#Third">
+                                    <h5 class="text-success text-left text-capitalize">Click Here
+                                       <button> <span class="glyphicon glyphicon-star"></span></button>
+                                    </h5>
+                                    </div>
+                            
+
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <button class="carousel-control-next main_button" type="button"
-                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" style="background-image:url(arrow.png)"
-                        aria-hidden="true"></span>
-                </button>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carouselExampleControls" data-bs-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+                <!-- <button class="carousel-control-next main_button" type="button"
+                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" style="background-image:url(arrow.png)"
+                aria-hidden="true"></span>
+                </button>  -->
+
             </div>
         </div>
         <br>
+        <center>
+            <!-- Modal -->
+            <div class="modal fade" id="First">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Always give without remembering & always receive without
+                                forgetting </h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            <img src="little.jpg" class="img-responsive img_modal">
+                            <p class="p_modal">THE POWER OF POSITIVE ATTITUDE...<br>
+                                <a href="https://www.amazon.in/Power-Positive-Attitude-Your-Success/dp/9389432642/ref=sr_1_4?crid=E97NFJTAOB16&keywords=books+bestsellers&qid=1650218671&s=books&sprefix=book%2Cstripbooks%2C213&sr=1-4"
+                                    target="_blank"><b>BEST BUY LINK</b></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
         <br>
+        <center>
+            <!-- Modal -->
+            <div class="modal fade" id="Second">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Always give without remembering & always receive without
+                                forgetting
+                            </h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            <img src="donate.png" class="img-responsive img_modal">
+                            <p class="p_modal">THE POWER OF POSITIVE ATTITUDE...<br>
+                                <a href="https://www.amazon.in/Power-Positive-Attitude-Your-Success/dp/9389432642/ref=sr_1_4?crid=E97NFJTAOB16&keywords=books+bestsellers&qid=1650218671&s=books&sprefix=book%2Cstripbooks%2C213&sr=1-4"
+                                    target="_blank"><b>BEST BUY LINK</b></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
         <br>
+        <center>
+            <!-- Modal -->
+            <div class="modal fade" id="Third">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">You make a living by what you get & You make a life by what you
+                                give
+                            </h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            <img src="volunteer.jpg" class="img-responsive img_modal">
+                            <p class="p_modal">Ikigai: The Japanese secret to a long and happy life<br>
+                                <a href="https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X/ref=sr_1_15?crid=E97NFJTAOB16&keywords=books+bestsellers&qid=1650218671&s=books&sprefix=book%2Cstripbooks%2C213&sr=1-15"
+                                    target="_blank"><b>BEST BUY LINK</b></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+
+
 
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" class="lower_container">
 
             <h4>
-                <mark class="header_entrepreneur">
-                    <i>
-                        <sup><i class="fa fa-quote-left"></i></sup>
-                        Served Over
-                        <sup><i class="fa fa-quote-right"></i></sup>
-                    </i>
-                </mark>
+                Served Over
             </h4>
             <br>
 
             <p class="content_1"><span class="content_number" style='color:rgb(244, 1, 34);'>6500+</span> children all
                 over the country in need of resources and we should think about it</p>
-            <div class="book" data-toggle="modal" data-target="#First">
+          
                 <button class="btn btn-primary btn-outline-secondary buttons_lower">Serve!</button>
-            </div>
-            <center>
-                <!-- Modal -->
-                <div class="modal fade" id="First">
-                    <div class="modal-dialog">
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title">Always give without remembering & always receive without
-                                    forgetting </h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                <img src="little.jpg" class="img-responsive img_modal">
-                                <p class="p_modal">THE POWER OF POSITIVE ATTITUDE...<br>
-                                    <a href="https://www.amazon.in/Power-Positive-Attitude-Your-Success/dp/9389432642/ref=sr_1_4?crid=E97NFJTAOB16&keywords=books+bestsellers&qid=1650218671&s=books&sprefix=book%2Cstripbooks%2C213&sr=1-4"
-                                        target="_blank"><b>BEST BUY LINK</b></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </center>
-
-
+         
+           
         </div>
-
-
-
-
-
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" class="lower_container">
 
             <h4>
-                <mark class="header_entrepreneur">
-                    <i>
-                        <sup><i class="fa fa-quote-left"></i></sup>
-                        Sponsor A Child
-                        <sup><i class="fa fa-quote-right"></i></sup>
-                    </i>
-                </mark>
+                Sponsor A Child
             </h4>
             <br>
             <p class="Content_">Even the all-powerful Pointing has no control about the blind texts</p>
-            <div class="book" data-toggle="modal" data-target="#Second">
+           
                 <button class="btn btn-primary btn-outline-secondary buttons_lower">Donate!</button>
-            </div>
-            <center>
-                <!-- Modal -->
-                <div class="modal fade" id="Second">
-                    <div class="modal-dialog">
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title">Always give without remembering & always receive without
-                                    forgetting
-                                </h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                <img src="donate.png" class="img-responsive img_modal">
-                                <p class="p_modal">THE POWER OF POSITIVE ATTITUDE...<br>
-                                    <a href="https://www.amazon.in/Power-Positive-Attitude-Your-Success/dp/9389432642/ref=sr_1_4?crid=E97NFJTAOB16&keywords=books+bestsellers&qid=1650218671&s=books&sprefix=book%2Cstripbooks%2C213&sr=1-4"
-                                        target="_blank"><b>BEST BUY LINK</b></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </center>
+            
+          
         </div>
-
-
-
-
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" class="lower_container">
             <h4>
-                <mark class="header_entrepreneur">
-                    <i>
-                        <sup><i class="fa fa-quote-left"></i></sup>
-                        Volunteer !!
-                        <sup><i class="fa fa-quote-right"></i></sup>
-                    </i>
-                </mark>
+                Volunteer !!
             </h4>
             <br>
             <p class="Content_">Even the all-powerful Pointing has no control about the blind texts</p>
-            <div class="book" data-toggle="modal" data-target="#Third">
+           
                 <button class="btn btn-primary btn-outline-secondary buttons_lower">Volunteer!</button>
-            </div>
-            <center>
-                <!-- Modal -->
-                <div class="modal fade" id="Third">
-                    <div class="modal-dialog">
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title">You make a living by what you get & You make a life by what you
-                                    give
-                                </h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-
-                            </div>
-
-                            <div class="modal-body">
-                                <img src="volunteer.jpg" class="img-responsive img_modal">
-                                <p class="p_modal">Ikigai: The Japanese secret to a long and happy life<br>
-                                    <a href="https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X/ref=sr_1_15?crid=E97NFJTAOB16&keywords=books+bestsellers&qid=1650218671&s=books&sprefix=book%2Cstripbooks%2C213&sr=1-15"
-                                        target="_blank"><b>BEST BUY LINK</b></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </center>
+            
+           
         </div>
     </div>
 </body>
